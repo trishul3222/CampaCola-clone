@@ -30,7 +30,7 @@ India's Original Cola, reimagined. This is a complete modern AI-powered marketin
 ### 🎨 Front-End
 ```
 .
-└── src/
+└── frontend/
     ├── components/
     │   ├── sections/        # Main landing page blocks (Hero, BrandStory, ProductShowcase, etc.)
     │   └── AIChatbot.tsx    # Intelligent Floating AI Chat Component
@@ -47,7 +47,8 @@ India's Original Cola, reimagined. This is a complete modern AI-powered marketin
 ### ⚙️ Back-End
 ```
 .
-├── server.ts                # Express backend routing, Gemini integration, and Vite handlers
+├── backend/
+│   └── server.ts            # Express backend routing, Gemini integration, and Vite handlers
 ├── firestore.rules          # Security and validation rules for database
 └── firebase-blueprint.json  # Schema and rule scaffolding definitions
 ```
