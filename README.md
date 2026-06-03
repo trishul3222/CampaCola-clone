@@ -27,25 +27,39 @@ India's Original Cola, reimagined. This is a complete modern AI-powered marketin
 
 ## 📁 Project Structure
 
+### 🎨 Front-End
 ```
 .
-├── src/
-│   ├── components/
-│   │   ├── sections/        # Main landing page blocks (Hero, BrandStory, ProductShowcase, etc.)
-│   │   └── AIChatbot.tsx    # Intelligent Floating AI Chat Component
-│   ├── context/
-│   │   └── AuthContext.tsx  # User Session Management using Firebase
-│   ├── lib/
-│   │   ├── utils.ts         # Utility functions (Tailwind string merge mapping)
-│   │   └── firebase.ts      # Firebase initialization logic
-│   ├── App.tsx              # Main application root and navigation overlay
-│   ├── index.css            # Global CSS incl. Tailwind declarations
-│   └── main.tsx             # React entry point
+└── src/
+    ├── components/
+    │   ├── sections/        # Main landing page blocks (Hero, BrandStory, ProductShowcase, etc.)
+    │   └── AIChatbot.tsx    # Intelligent Floating AI Chat Component
+    ├── context/
+    │   └── AuthContext.tsx  # User Session Management using Firebase
+    ├── lib/
+    │   ├── utils.ts         # Utility functions (Tailwind string merge mapping)
+    │   └── firebase.ts      # Firebase initialization logic
+    ├── App.tsx              # Main application root and navigation overlay
+    ├── index.css            # Global CSS incl. Tailwind declarations
+    └── main.tsx             # React entry point
+```
+
+### ⚙️ Back-End
+```
+.
 ├── server.ts                # Express backend routing, Gemini integration, and Vite handlers
-├── vite.config.ts           # Build and development tooling
+├── firestore.rules          # Security and validation rules for database
+└── firebase-blueprint.json  # Schema and rule scaffolding definitions
+```
+
+### 🛠 Others (Configuration & Tooling)
+```
+.
+├── .env.example             # Template for required environment variables
 ├── package.json             # App dependencies and scripts
-├── firebase-blueprint.json  # Schema and rule scaffolding definitions
-└── firestore.rules          # Security and validation rules for database
+├── tsconfig.json            # TypeScript compiler configuration
+├── vite.config.ts           # Build and development tooling configuration
+└── README.md                # Project documentation
 ```
 
 ## 📋 Prerequisites
