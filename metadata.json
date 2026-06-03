@@ -1,0 +1,10 @@
+{
+  "name": "Campa Cola Website",
+  "description": "A modern AI-powered marketing and conversion website for Campa.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
